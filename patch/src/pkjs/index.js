@@ -756,9 +756,9 @@ Pebble.addEventListener('ready', function() {
 
 // OAuth 2.0 Configuration for Public Client (PKCE Flow)
 var OAUTH_CONFIG = {
-  clientId: 'b9260194-8028-48ae-8907-e30182eda409', // Shared default client ID (BYO override available in config page)
+  clientId: 'a7d93131-525c-410a-bb12-3e13de823d05', // Shared default client ID (BYO override available in config page)
   tenantId: 'common', // Use 'common' for multi-tenant, or your specific tenant ID
-  redirectUri: 'https://mattnovelli.github.io/patch/', // Hosted OAuth receiver page (GitHub Pages /docs)
+  redirectUri: 'https://karthakon.github.io/patch/', // Hosted OAuth receiver page (GitHub Pages /docs)
   scope: 'https://graph.microsoft.com/Mail.Send offline_access',
   responseType: 'code', // Using authorization code with PKCE
   responseMode: 'query' // Authorization code callback in query params
